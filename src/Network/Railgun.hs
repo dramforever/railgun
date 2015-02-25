@@ -16,6 +16,12 @@ module Network.Railgun
        ( Railgun
        , RailgunApp
        , runRailgunApp
+
+         -- * Re-exports from "Network.Wai"
+       , Request
+       , Response
        ) where
+
+import Network.Wai
 
 import Network.Railgun.Internal
